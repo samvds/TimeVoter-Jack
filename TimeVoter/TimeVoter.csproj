@@ -32,7 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Fougerite">
-      <HintPath>References\Fougerite.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\Rust Verzamelmap\Legacy Lives\Server\rust_server_Data\Managed\Fougerite.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

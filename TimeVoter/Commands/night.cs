@@ -36,7 +36,7 @@ namespace TimeVoter.Commands
             }
 
             //Send the Player a notice that they have successfully voted
-            player.MessageFrom("Legacy Lives", Colors.yellow + "☢ " + Colors.green + "You voted for nighttime!");
+            player.MessageFrom("Legacy Lives", Colors.yellow + "☢ " + Colors.green + "You have voted for nighttime!");
 
             //Increment the No Vote Counter
             TimeVoter.NoVoteCount += 1;
@@ -46,8 +46,8 @@ namespace TimeVoter.Commands
 
             //Send the Server a notice updating the current vote count
             Server.GetServer().BroadcastFrom("Legacy Lives", "As it currently stands, there are:");
-            Server.GetServer().BroadcastFrom("Legacy Lives", Colors.blue + "☢ " + TimeVoter.YesVoteCount + Colors.white + " vote(s) for daytime and " + Colors.blue + TimeVoter.NoVoteCount + Colors.white + " vote(s) for nighttime.");
-            Server.GetServer().BroadcastFrom("Legacy Lives", Colors.blue + "☢ " + player.Name + Colors.white + " has voted for nighttime!");
+            Server.GetServer().BroadcastFrom("Legacy Lives", "☢ " + Colors.blue + TimeVoter.YesVoteCount + Colors.white + " vote(s) for daytime and " + Colors.blue + TimeVoter.NoVoteCount + Colors.white + " vote(s) for nighttime.");
+            Server.GetServer().BroadcastFrom("Legacy Lives", "☢ " + Colors.blue + player.Name + Colors.white + " has voted for nighttime!");
         }
     }
 }
