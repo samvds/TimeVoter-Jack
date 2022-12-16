@@ -47,8 +47,8 @@
     <Compile Include="Commands\night.cs" />
     <Compile Include="Commands\settime.cs" />
     <Compile Include="Commands\time.cs" />
-    <Compile Include="hooks\OnCommand.cs" />
-    <Compile Include="hooks\OnServerInit.cs" />
+    <Compile Include="EventList\OnCommand.cs" />
+    <Compile Include="EventList\OnServerInit.cs" />
     <Compile Include="TimeVoter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

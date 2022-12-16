@@ -1,13 +1,11 @@
 ﻿//Internal References
-using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
 using System.Timers;
 
 //External References
 using Fougerite;
 
 //Setup the Namespace
-namespace TimeVoter.hooks
+namespace TimeVoter.EventList
 {
     //Setup the Server Init Class
     public static class OnServerInit

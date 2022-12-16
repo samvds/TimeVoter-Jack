@@ -6,7 +6,7 @@ using System.Timers;
 
 //External References
 using Fougerite;
-using TimeVoter.hooks;
+using TimeVoter.EventList;
 
 //Setup the Namespace
 namespace TimeVoter
