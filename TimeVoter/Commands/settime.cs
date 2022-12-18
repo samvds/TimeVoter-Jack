@@ -42,7 +42,7 @@ namespace TimeVoter.Commands
 
                 //Set the Time to Night
                 World.GetWorld().Time = 17;
-                Server.GetServer().BroadcastFrom("Legacy Lives", "☢ " + Colors.white + "A server admin has changed the time to: " + Colors.blue + "daytime.");
+                Server.GetServer().BroadcastFrom("Legacy Lives", "☢ " + Colors.white + "A server admin has changed the time to: " + Colors.blue + "nighttime.");
 
                 //End the Method
                 return;
